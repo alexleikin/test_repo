@@ -1,5 +1,0 @@
----
-tasks:
-    - name: test connection
-      ping:
-      remote_user: yourname
