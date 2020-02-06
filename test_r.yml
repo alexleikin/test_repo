@@ -1,4 +1,4 @@
 ---
 - hosts: all
 roles:
-    role: role/install_httpd
+role: role/install_httpd
