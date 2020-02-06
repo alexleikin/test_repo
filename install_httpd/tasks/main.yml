@@ -1,4 +1,4 @@
 ---
-
-- name: Install httpd server
-  ping:
+tasks:
+  - name: Install httpd server
+    ping:
