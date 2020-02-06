@@ -1,3 +1,4 @@
 ---
+- hosts: all
 - name: Install httpd server
   ping:
