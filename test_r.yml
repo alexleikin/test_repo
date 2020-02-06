@@ -1,3 +1,4 @@
 ---
-roles:
-  install_httpd
+
+  roles:
+    install_httpd
