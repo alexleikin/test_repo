@@ -1,2 +1,6 @@
----
-# tasks file for install_httpd
+----
+
+- hosts: all
+  gather_facts: false
+  tasks:
+ - ping:
