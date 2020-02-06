@@ -1,4 +1,5 @@
 ---
-- name: Install httpd server
-    tasks:
+  -name: testing
+  tasks:
+    - name: Install httpd server
       ping:
