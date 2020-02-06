@@ -3,5 +3,5 @@
 - name: Ping 
 
   tasks:
-    ping
+    - ping:
   
