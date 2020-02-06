@@ -1,7 +1,5 @@
 ----
-
-- name: Ping 
-
-  tasks:
-    - ping:
+  tasks: 
+    - name: pinging workstation 
+      ping:
   
