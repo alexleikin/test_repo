@@ -1,6 +1,4 @@
 ---
 
-name http_config
-
 roles:
   install_httpd
