@@ -1,4 +1,4 @@
-----
-  tasks: 
-    - name: pinging workstation 
-    ping:
+---
+- name: Install httpd server
+  yum: name=httpd state=present
+  
