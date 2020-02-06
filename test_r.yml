@@ -1,4 +1,6 @@
 ---
-- hosts: all
+
+name http_config
+
 roles:
-role: role/install_httpd
+  install_httpd
