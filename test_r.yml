@@ -1,6 +1,7 @@
 ---
 
 - name: Example playbook 
+  hosts: all
   roles: 
     - install_httpd
   
