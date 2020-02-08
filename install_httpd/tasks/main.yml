@@ -1,10 +1,11 @@
 ---
-  remote_user: alex
-  become: true
+  
   vars:
     project_root: /var/www/html
   tasks:
   - name: Install Apache Webserver
+    remote_user: alex
+    become: true
     yum: pkg=httpd state=latest
   - name: Enable Apache on system reboot
     service: name=httpd enabled=yes
