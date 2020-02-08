@@ -1,7 +1,7 @@
 ---
 - name: Install ntp service.
   become: yes
-  yum: name=ntp state=present
+  yum: name=httpd state=present
 
 - name:
-  yum: name=ntpd state=started enabled=yes
+  yum: name=httpd state=started enabled=yes
