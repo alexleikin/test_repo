@@ -1,8 +1,5 @@
 ---
-- name: pinging host
-  ping:
-
-- name:
+- name: Install ntp service.
   yum: name=ntp state=present
 
 - name:
