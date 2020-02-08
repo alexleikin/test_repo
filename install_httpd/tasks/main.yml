@@ -4,7 +4,7 @@
   yum: pkg=httpd state=latest
 
 - name: Enable Apache
-  service: name=httpd state=started enabled=yes
+  service: name=httpd state=started
   notify: restart apache
   handlers:
 - name: restart apache
