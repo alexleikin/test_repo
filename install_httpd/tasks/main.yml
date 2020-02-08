@@ -1,4 +1,9 @@
-  tasks:  
+- hosts: my_host
+  remote_user: alex
+  become: true
+  vars:
+    project_root: /var/www/html
+  tasks:
   - name: Install Apache Webserver
     yum: pkg=httpd state=latest
   - name: Enable Apache on system reboot
