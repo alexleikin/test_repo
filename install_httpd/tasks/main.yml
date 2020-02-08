@@ -1,4 +1,4 @@
-- hosts: my_host
+---
   remote_user: alex
   become: true
   vars:
