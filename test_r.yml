@@ -1,6 +1,6 @@
 ---
 - name: Example playbook 
-- hosts: all
+  hosts: all
   remote_user: alex
   become: true
   roles: 
