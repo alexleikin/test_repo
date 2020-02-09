@@ -1,6 +1,8 @@
 ---
 - name: Example playbook 
 - hosts: all
+  remote_user: alex
+  become: true
   roles: 
     - install_httpd
   
