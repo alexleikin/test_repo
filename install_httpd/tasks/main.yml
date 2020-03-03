@@ -1,6 +1,6 @@
 ---
  - name: Install Apache Webserver
-   yum: pkg=httpd state=absent
+   yum: pkg=httpd state=present
  - name: Enable Apache on system reboot
    service: name=httpd enabled=yes
    
