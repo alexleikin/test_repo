@@ -1,6 +1,7 @@
 ---
 - name: Example playbook 
   hosts: all
+  gather_facts: no
   remote_user: alex
   become: true
   roles: 
