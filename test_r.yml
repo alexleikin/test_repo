@@ -2,7 +2,7 @@
 - name: Example playbook 
   hosts: all
   gather_facts: no
-  remote_user: xalexa
+  remote_user: alex
   become: true
   roles: 
     - install_httpd
