@@ -4,6 +4,6 @@
  - name: Enable Apache on system reboot
    service: name=httpd enabled=yes
  - name: Install python3
-   yum: pkg=php3 state=latest
+   yum: pkg=python3 state=latest
    
    
