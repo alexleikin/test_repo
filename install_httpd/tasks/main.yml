@@ -8,10 +8,10 @@
 
  - name: Print HOST
    debug:
-     msg: "{{ lookup('env', 'HOST') }}"
+     msg: "{{ lookup('env', 'LOGNAME') }}"
  - name: Print USER
    debug:
-     msg: "{{ lookup('env', 'USER') }}"
+     msg: "{{ lookup('env', 'NAME') }}"
  - name: Print PASSWORD
    debug:
      msg: "{{ lookup('env', 'HOME') }}"
