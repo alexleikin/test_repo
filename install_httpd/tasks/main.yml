@@ -11,7 +11,7 @@
      msg: "{{ lookup('env', 'TOWER_HOST') }}"
  - name: Print USER
    debug:
-     msg: "{{ lookup('env', 'USR') }}"
+     msg: "{{ lookup('env', 'USER') }}"
  - name: Print PASSWORD
    debug:
      msg: "{{ lookup('env', 'HOME') }}"
