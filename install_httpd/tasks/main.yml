@@ -8,6 +8,7 @@
  
  - name: Print ENV
    debug:
-     msg: "{{ lookup("env", "TOWER_USERNAME") }}"
+     #msg: "{{ lookup("env", "TOWER_USERNAME") }}"
+      msg "OK"
    
  
