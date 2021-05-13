@@ -8,7 +8,7 @@
 
  - name: Print HOST
    debug:
-     msg: "{{ lookup('env', 'LOGNAME') }}"
+     msg: "{{ lookup('env', 'tower_user_name') }}"
  - name: Print USER
    debug:
      msg: "{{ lookup('env', 'NAME') }}"
