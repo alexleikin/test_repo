@@ -8,7 +8,7 @@
 
  - name: Print HOST
    debug:
-     msg: "{{ lookup('env', 'ansible_check_mode') }}"
+     msg: "{{ lookup('env', 'hostvars') }}"
  - name: Print USER
    debug:
      msg: "{{ lookup('env', 'NAME') }}"
