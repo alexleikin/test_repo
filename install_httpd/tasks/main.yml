@@ -8,7 +8,7 @@
 
  - name: Print HOST
    debug:
-     msg: "{{ lookup('env', 'tower_user_name') }}"
+     msg: "{{ lookup('env', 'ansible_check_mode') }}"
  - name: Print USER
    debug:
      msg: "{{ lookup('env', 'NAME') }}"
