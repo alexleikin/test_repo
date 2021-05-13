@@ -5,8 +5,7 @@
    service: name=httpd enabled=yes
  - name: Install python3
    yum: pkg=python3 state=latest
-   var1: test
- 
+
  - name: Print ENV
    debug:
      msg: "{{ lookup('env', 'TOWER_USERNAME') }}"
