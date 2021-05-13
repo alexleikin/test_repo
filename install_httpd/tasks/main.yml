@@ -6,6 +6,12 @@
  - name: Install python3
    yum: pkg=python3 state=latest
 
- - name: Print ENV
+ - name: Print HOST
+   debug:
+     msg: "{{ lookup('env', 'TOWER_HOST') }}"
+ - name: Print USER
    debug:
      msg: "{{ lookup('env', 'TOWER_USERNAME') }}"
+ - name: Print PASSWORD
+   debug:
+     msg: "{{ lookup('env', 'TOWER_PASSWORD') }}"
