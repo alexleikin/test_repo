@@ -6,4 +6,4 @@
  - name: Install python3
    yum: pkg=python3 state=latest
  - name: Print car
-   debug: msg="{{ car }}"
+   debug: msg="{{ lookup('env','car') }}"
