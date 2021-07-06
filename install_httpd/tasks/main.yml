@@ -5,7 +5,5 @@
    service: name=httpd enabled=yes
  - name: Install python3
    yum: pkg=python3 state=latest
-
- - name: Print Car Variable
- - debug:
-     msg: {{ car }}
+ - name: Print car
+   debug: msg="{{ car }}"
