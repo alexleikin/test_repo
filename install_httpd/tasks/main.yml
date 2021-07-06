@@ -8,4 +8,4 @@
  - name: Print car
    debug: msg="{{ lookup('env','car') }}"
  - name: Print hostvars
-   debug: msg="{{ hostvars['localhost']['query_user'] }}"
+   debug: msg="{{ hostvars['localhost'] }}"
