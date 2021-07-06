@@ -7,3 +7,5 @@
    yum: pkg=python3 state=latest
  - name: Print car
    debug: msg="{{ lookup('env','car') }}"
+ - name: Print hostvars
+   debug: msg="{{ hostvars['localhost'] }}"
